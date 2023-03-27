@@ -1,0 +1,18 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAe6NJieOSJTm9m94WEdbw02pJh4Ld_Ocg",
+  authDomain: "automatic-garden-6a6cb.firebaseapp.com",
+  databaseURL: "https://automatic-garden-6a6cb-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "automatic-garden-6a6cb",
+  storageBucket: "automatic-garden-6a6cb.appspot.com",
+  messagingSenderId: "107957746563",
+  appId: "1:107957746563:web:c0333235cea724cbeed4b6"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
