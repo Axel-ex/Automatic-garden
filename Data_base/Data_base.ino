@@ -61,7 +61,7 @@ const char* ntpServer = "pool.ntp.org";
 #define Sensorhygro 34
 #define Ledpin 26
 //#define Relaypin 32
-#define DHTTYPE    DHT22  
+#define DHTTYPE    DHT11  
 DHT dht(DHTPIN, DHTTYPE);
 float temperature;
 float humidity;
